@@ -19,3 +19,17 @@ def get_executed_operations(values):
     return executed_operations
 
 
+def sort_operations(data):
+    date_operations = []
+    for sort_date in data:
+        sort_operations = datetime.strptime(sort_date["date"], "%Y-%m-%dT%H:%M:%S.%f")
+        formate_date = f"{sort_operations:%d.%m.%Y}"
+        date_operations.append(formate_date)
+    return date_operations
+
+
+def slide_operations(operation):
+
+
+
+#print(sort_operations(get_executed_operations(load_json_file())))
