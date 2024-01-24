@@ -20,25 +20,32 @@ def get_executed_operations(values):
     for value in values:
         if value == {}:
             continue
-        else:
+        elif value["state"] == "EXECUTED":
             executed_operations.append(value)
     return executed_operations
 
 
-def sort_operations(data):
+def sort_date(operations):
+    """
+    Функция сортировки по дате
+    """
+    sort_list = sorted(operations, key=lambda x: datetime.strptime(x["date"], "%Y-%m-%dT%H:%M:%S.%f"))
+    list_operations = sort_list[:5]
+    return list_operations
+
+
+def format_date(date):
     """
     Функция ждя сортировки по дате и форматирования вывода даты
     """
     date_operations = []
-    for sort_date in data:
-        sorted_operations = datetime.strptime(sort_date["date"], "%Y-%m-%dT%H:%M:%S.%f")
-        formate_date = f"{sorted_operations:%d.%m.%Y}"
+    for sorted_date in date:
+        sort_operations = datetime.strptime(sorted_date["date"], "%Y-%m-%dT%H:%M:%S.%f")
+        formate_date = f"{sort_operations:%d.%m.%Y}"
         date_operations.append(formate_date)
     return date_operations
 
 
-def slide_operations():
-    pass
 
 
-# print(sort_operations(get_executed_operations(load_json_file())))
+print(format_date(sort_date(get_executed_operations(load_json_file()))))
