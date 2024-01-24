@@ -46,6 +46,12 @@ def format_date(date):
     return date_operations
 
 
+def mask_card_number(card_number):
+    """
+    Функция маскировки номера карты
+    """
+    mask_number = "{} {}** **** {}".format(card_number[:12], card_number[-10:-8], card_number[-4:])
+    return mask_number
 
 
-print(format_date(sort_date(get_executed_operations(load_json_file()))))
+
