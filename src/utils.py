@@ -54,4 +54,9 @@ def mask_card_number(card_number):
     return mask_number
 
 
-
+def mask_amount_number(amount_number):
+    """
+    Функция маскировки счёта
+    """
+    mask_amount = "Счет **{}".format(amount_number[-4:])
+    return mask_amount
