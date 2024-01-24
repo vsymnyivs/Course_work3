@@ -25,7 +25,7 @@ def get_executed_operations(values):
     return executed_operations
 
 
-def sort_date(operations):
+def sort_operartions(operations):
     """
     Функция сортировки по дате
     """
