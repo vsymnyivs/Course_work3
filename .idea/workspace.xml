@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="432e63a0-83c6-4f28-8d27-d4b36357ddde" name="Changes" comment="Проверка создания удаленнного репозитория">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
