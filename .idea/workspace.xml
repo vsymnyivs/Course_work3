@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432e63a0-83c6-4f28-8d27-d4b36357ddde" name="Changes" comment="Проверка создания удаленнного репозитория">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="432e63a0-83c6-4f28-8d27-d4b36357ddde" name="Changes" comment="Внёс правки в функции в файле utils.py">
+      <change afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2b5veGqEYWbuXHxMsHpHpQR6Xbe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,13 +42,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_utils.test_get_executed_operation.executor": "Run",
+    "Python tests.Python tests for test_utils.test_get_executed_operations.executor": "Run",
+    "Python tests.Python tests for test_utils.test_mask_amount_number.executor": "Run",
+    "Python tests.Python tests for test_utils.test_sort_operations_date.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.utils.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
     "ignore_missing_gitignore": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_utils.test_get_executed_operations">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="course_work3" />
       <option name="ENV_FILES" value="" />
@@ -71,6 +77,74 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_utils.test_get_executed_operation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="course_work3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_executed_operation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_utils.test_get_executed_operations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="course_work3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_executed_operations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_utils.test_mask_amount_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="course_work3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_mask_amount_number&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_utils.test_sort_operations_date" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="course_work3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_sort_operations_date&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_utils.test_get_executed_operations" />
+        <item itemvalue="Python tests.Python tests for test_utils.test_sort_operations_date" />
+        <item itemvalue="Python tests.Python tests for test_utils.test_get_executed_operation" />
+        <item itemvalue="Python tests.Python tests for test_utils.test_mask_amount_number" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -104,7 +178,111 @@
       <option name="project" value="LOCAL" />
       <updated>1705521035611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ввёл информацию в файл.">
+      <option name="closed" value="true" />
+      <created>1705841209196</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705841209196</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Задал параметры в файл">
+      <option name="closed" value="true" />
+      <created>1705844317327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705844317327</updated>
+    </task>
+    <task id="LOCAL-00005" summary="write function load_json_file()">
+      <option name="closed" value="true" />
+      <created>1705844387065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705844387065</updated>
+    </task>
+    <task id="LOCAL-00006" summary="write function get_executed_operations(value)">
+      <option name="closed" value="true" />
+      <created>1705848171992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705848171992</updated>
+    </task>
+    <task id="LOCAL-00007" summary="write function sort_operations(data)">
+      <option name="closed" value="true" />
+      <created>1705852807382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705852807382</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Написал докстринги функциям, привет функцию sort_operations() к требованиям PEP8">
+      <option name="closed" value="true" />
+      <created>1705853420223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853420223</updated>
+    </task>
+    <task id="LOCAL-00009" summary="поменял название функции sort_operations на format_date.&#10;написал функцию сортировки по дате sort_date.">
+      <option name="closed" value="true" />
+      <created>1706130102348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706130102349</updated>
+    </task>
+    <task id="LOCAL-00010" summary="написал функцию mask_card_number - маскирует номер карты.">
+      <option name="closed" value="true" />
+      <created>1706131220653</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706131220653</updated>
+    </task>
+    <task id="LOCAL-00011" summary="написал функцию mask_amount_number - маскирует номер счета.">
+      <option name="closed" value="true" />
+      <created>1706131530000</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706131530000</updated>
+    </task>
+    <task id="LOCAL-00012" summary="переименовал функцию sort_date в sort_operations">
+      <option name="closed" value="true" />
+      <created>1706132678435</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706132678435</updated>
+    </task>
+    <task id="LOCAL-00013" summary="начал писать основной код работы виджета">
+      <option name="closed" value="true" />
+      <created>1706132761852</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706132761852</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Написал код работы логики виджета">
+      <option name="closed" value="true" />
+      <created>1706205202446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706205202446</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Внёс правки в функции в файле utils.py">
+      <option name="closed" value="true" />
+      <created>1706213998979</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706213998979</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +299,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создал структуру проекта" />
     <MESSAGE value="Проверка создания удаленнного репозитория" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка создания удаленнного репозитория" />
+    <MESSAGE value="Ввёл информацию в файл." />
+    <MESSAGE value="Задал параметры в файл" />
+    <MESSAGE value="write function load_json_file()" />
+    <MESSAGE value="write function get_executed_operations(value)" />
+    <MESSAGE value="write function sort_operations(data)" />
+    <MESSAGE value="Написал докстринги функциям, привет функцию sort_operations() к требованиям PEP8" />
+    <MESSAGE value="поменял название функции sort_operations на format_date.&#10;написал функцию сортировки по дате sort_date." />
+    <MESSAGE value="написал функцию mask_card_number - маскирует номер карты." />
+    <MESSAGE value="написал функцию mask_amount_number - маскирует номер счета." />
+    <MESSAGE value="переименовал функцию sort_date в sort_operations" />
+    <MESSAGE value="начал писать основной код работы виджета" />
+    <MESSAGE value="Написал код работы логики виджета" />
+    <MESSAGE value="Внёс правки в функции в файле utils.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внёс правки в функции в файле utils.py" />
   </component>
 </project>
